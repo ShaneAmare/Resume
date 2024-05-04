@@ -1,0 +1,175 @@
+/* box-sizing */
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* STURCTURE */
+html {
+	background-color:#595858;
+}
+#wrap{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	background-color:white;
+	box-shadow: 10px 10px 5px #282828;
+}
+header {
+	margin-top:30px;
+	padding:10px 50px;
+	background-color:#A5E0E3;
+}
+section {padding:0 40px;}
+
+
+/* TYPOGRAPHY */
+h1 {
+	font-family: "Lato", sans-serif;
+ 	font-weight: 900;
+  	font-style: normal;
+}
+
+h2 {
+	padding-top: 20px;
+	font-family: "Lato", sans-serif;
+ 	font-weight: 900;
+  	font-style: normal;
+}
+
+li {margin-bottom:8px;}
+h3 {padding-left:20px;}
+p {padding-left:20px;}
+
+header h1 {margin-bottom:0;}
+header h2 {
+	font-family: times, serif;
+	margin-top:0;
+	font-style:italic;
+	padding-top:0;
+	margin-bottom:20px;
+	font-weight: bold;
+	font-size:20px;
+}
+
+/*#name{color:#242229}    #74C1B1;  */
+
+#contact ul {
+	list-style-type: none;
+	padding:0; text-align:center;
+}
+#contact li {
+	display: inline;
+	font-size:16px
+}
+#contact span {padding:0 10px;}
+
+#software ul, #hobbies ul{
+	max-width: 550px;
+	margin:0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	flex-direction: row;
+	list-style-type: none;
+	padding: 0;
+	justify-content: center;
+}
+#software li, #hobbies li {
+	white-space: nowrap;
+	display: inline-block;
+	margin: 8px 10px;
+	padding:10px;
+	background-color: lightblue;
+	border-radius:6px;
+	flex-wrap:wrap;
+	font-weight: 600;
+}
+
+#ProgrammingLanguages {
+	display: flex; 
+	list-style-type: none;
+	padding: 0;
+	justify-content: center;
+}
+#ProgrammingLanguages li {
+	font-size:20px;
+	margin: 0 20px;
+	padding:8px 15px;
+	border-radius:6px;
+	flex-wrap:wrap;
+	color:#C7DCF0;
+	background-color:#2765A3;
+}
+
+#experiences h2 {margin-bottom: 4px;}
+#experiences h2 + p {margin-top: 0;}
+
+#education h3 {margin-bottom: 4px;}
+#education h3 + p {margin-top: 0;}
+
+#hobbies {padding-bottom: 20px; margin-bottom: 30px;}
+#hobbies ul {max-width: 570px;}
+#hobbies li {margin: 10px 12px;}
+
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
